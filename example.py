@@ -5,3 +5,6 @@ def add(a, b):
 def test_add():
     assert add(2, 3) == 5
     assert add('space', 'ship') == 'spaceship'
+
+def test_raw(q,w):
+    assert sum.range(1:100) < 5000
